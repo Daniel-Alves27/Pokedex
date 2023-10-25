@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/reset.css">
+    <script src="main.js" defer></script>
+</head>
+<body class="container">
+    <header class="header__container">
+        <div class="logo__header">
+            <img src="/img/Pokémon_logo.svg" alt="logo pokemon">
+        </div>
+
+        <div class="cenario">
+            <div class="moldura__superior"></div>
+            <img id="cenario__background" src="/img/floresta.jpg" alt="cenario">
+            <div class="nome-do-pokemon" id="nome-do-pokemon">nome</div>
+        </div>
+
+        <div class="spritePokemon">
+            <img class="imgPokemon" src="/img/pikachu.png">
+        </div>
+
+        <div class="container__search">
+            <input type="search" id="search" class="search">
+            <button class="lupa__search" id="lupa__search">
+                <img src="/img/lupa.png" alt="lupa de pesquisa">
+            </button>
+        </div>
+    </header>
+    <main class="container__info">
+        <div class="type__info">
+            <img class="type__icon-one" id="type__icon-one" src="/img/icons/electric.svg" alt="">
+            <p class="first-type" id="first-type"></p>
+        </div>
+
+        <div class="type__info" >
+            <img class="type__icon-two" id="type__icon-two" src="/img/icons/normal.svg" alt="">
+            <p class="second-type" id="second-type"></p>
+        </div>
+
+        <div class="peso__info" >
+            <span id="peso__info"></span>
+            <p>peso</p>
+        </div>
+
+        <div class="altura__info" >
+            <span id="altura__info"></span>
+            <p>altura</p>
+        </div>
+
+        <div class="flavor-text">
+            <img src="/img/jogos.png" alt="icone pokebola">
+            <p></p>
+        </div>
+    </main>
+
+    <footer class="rodape">
+        <p> Desenvolvido por Daniel Alves</p>
+    </footer>
+</body>
+</html>

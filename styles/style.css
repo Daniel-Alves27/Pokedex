@@ -1,0 +1,370 @@
+:root {
+    --black: black;
+    --white: white;
+    --background: #000229;
+    --red: red;
+}
+
+html {
+    background: var(--background) url("/img/pokebola.png") no-repeat right bottom;
+    background-size: 330px;
+}
+
+.header__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo__header {
+    background: var(--black);
+    width: 100%;
+    height: 50px;
+}
+
+.logo__header img {
+    display: block;
+    width: 110px;
+    margin: 5px auto 0 ;
+}
+
+.moldura__superior {
+    display: none;
+}
+
+.cenario {
+    position: relative;
+    height: auto;
+}
+
+.cenario img {
+    width: 100%;
+}
+
+.nome-do-pokemon {
+    box-sizing: border-box;
+    font-family: 'Pixelify Sans', sans-serif;
+    color: var(--white);
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    padding-top: 10px;
+    background: var(--black);
+    width: 100vw;
+    height: 90px;
+    border: 3px solid var(--white);
+    border-top: none;
+    border-radius: 0 0 50% 50%;
+}
+
+.spritePokemon .imgPokemon {
+    position: absolute;
+    width: 45%;
+    top: 17%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.container__search {
+    display: flex;
+    margin: 20px auto;
+}
+
+.search {
+    width: 310px;
+    height: 40px;
+    border: 1px solid var(--black);
+    border-radius: 5px 0px 0px 5px;
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 1em;
+}
+
+.lupa__search {
+    width: 40px;
+    height: 38px;
+    background: red;
+    border: 1px solid var(--black);
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.lupa__search img {
+    display: block;
+    max-width: 25px;
+    margin: 7px auto;
+}
+
+.container__info {
+    display: grid;
+    width: 430px;
+    grid-template-columns: auto auto;
+    grid-template-rows: repeat(3fr);
+    gap: 18px 0;
+    margin: 0 auto;
+    padding-bottom: 7em;
+}
+
+.type__info {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    gap: 0.5em;
+    width: 130px;
+    height: 35px;
+    background: var(--white);
+    border-radius: 5px;
+    border: 1px solid var(--black);
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--black);
+}
+
+.type__icon-one {
+    background: black;
+    max-width: 25px;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 1px;
+    margin: 2px 0 0 5px;
+}
+
+.type__icon-two {
+    background: black;
+    max-width: 25px;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 1px;
+    margin: 2px 0 0 5px;
+}
+
+.peso__info span {
+    font-weight: bold;
+    text-align: center;
+    font-size: 28px;
+    height: 32px;
+}
+
+.peso__info {
+    display: grid;
+    justify-self: center;
+    width: 130px;
+    height: 50px;
+    background: var(--white);
+    border-radius: 5px;
+    border: 1px solid var(--black);
+    
+}
+
+.peso__info p {
+    font-family: 'Pixelify Sans', sans-serif;
+    height: 19px;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--white);
+    background: var(--black);
+    border-radius: 0 0 5px 5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.altura__info {
+    display: grid;
+    justify-self: center;
+    width: 130px;
+    height: 50px;
+    background: var(--white);
+    border-radius: 5px;
+    border: 1px solid var(--black);
+}
+
+.altura__info span {
+    font-weight: bold;
+    font-size: 28px;
+    text-align: center;
+    height: 32px;
+}
+
+.altura__info p {
+    font-family: 'Pixelify Sans', sans-serif;
+    height: 19px;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--white);
+    background: var(--black);
+    border-radius: 0 0 5px 5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.flavor-text {
+    grid-column: 1/3;
+    width: 350px;
+    height: 170px;
+    background: var(--white);
+    border: 1px solid var(--black);
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.flavor-text img {
+    max-width: 35px;
+    padding: 10px 0 0 10px;
+}
+
+.rodape {
+    width: 100%;
+    color: var(--white);
+    background: var(--black);
+    margin-top: 20px;
+}
+
+.rodape p {
+    font-size: 22px;
+    text-align: center;
+    padding: 40px;
+}
+
+@media screen and (min-width: 768px) {
+    .logo__header {
+        margin-bottom: 2em;
+    }
+
+    .moldura__superior {
+        display: block;
+        box-sizing: border-box;
+        color: var(--white);
+        text-align: center;
+        font-size: 45px;
+        font-weight: bold;
+        padding-top: 10px;
+        background: var(--black);
+        width: 670px;
+        height: 90px;
+        border: 3px solid var(--white);
+        border-bottom: none;
+        border-radius: 50% 50% 0 0;
+        margin: 0 auto;
+    }
+
+    .spritePokemon .imgPokemon {
+        width: 350px;
+        top: 28%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+  
+    .cenario img {
+        display: block;
+        width: 670px;
+        margin: 0 auto;
+    }
+    
+    .nome-do-pokemon {
+        width: 670px;
+        margin: 0 auto;
+    }
+
+    .search {
+        width: 450px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    html {
+        background-position-y: 130%;
+        background-position-x: 95%;
+    }
+
+    .container {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: auto auto;
+        gap: 5em;
+        margin-top: 5em;
+    }
+
+    .logo__header {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .header__container {
+        width: 670px;
+        grid-template-columns: 1/2;
+        margin: 0 auto;
+    }
+
+    .spritePokemon .imgPokemon {
+        left: 30%;
+    }
+
+    .container__info {
+        width: 600px;
+        height: 350px;
+        margin-top: 5em;
+        padding: 0;
+    }
+
+    .type__info {
+        width: 240px;
+        height: 53px;
+    }
+
+    .type__icon-one {
+        max-width: 30px;
+    }
+
+    .first-type {
+        font-size: 28px;
+    }
+
+    .type__icon-two {
+        max-width: 30px;
+    }
+
+    .second-type {
+        font-size: 28px;
+    }
+
+    .peso__info span {
+        height: 54px;
+        font-size: 38px;
+    }
+
+    .peso__info {
+        width: 240px;
+        height: 91px;
+    }
+
+    .peso__info p {
+        font-size: 32px;
+        height: 34px;
+    }
+
+    .altura__info span {
+        height: 54px;
+        font-size: 38px;
+    }
+    
+    .altura__info{
+        width: 240px;
+        height: 91px;
+    }
+
+    .altura__info p {
+        font-size: 32px;
+        height: 34px;
+    }
+
+    .flavor-text {
+        width: 600px;
+        height: 308px;
+    }
+
+    .rodape {
+        position: absolute;
+        bottom: 0;
+        grid-column: 1/3;
+    }
+}
