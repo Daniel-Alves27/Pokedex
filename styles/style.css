@@ -96,7 +96,6 @@ html {
 
 .container__info {
     display: grid;
-    width: 430px;
     grid-template-columns: auto auto;
     grid-template-rows: repeat(3fr);
     gap: 18px 0;

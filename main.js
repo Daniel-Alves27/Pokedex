@@ -16,7 +16,7 @@ const flavorText = document.querySelector("#flavor-text");
 const descricaoInfo = "descricaoPokemon.json";
 
 btnSearch.addEventListener("click",(e)=> {
-    const nomePokemon = search.value;
+    const nomePokemon = search.value.toLowerCase();
     searchPokemon(nomePokemon)
 })
 
