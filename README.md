@@ -5,7 +5,6 @@
 | :sparkles: Nome        | **Pokédex**
 | :label: Tecnologias | [![My Skills](https://skillicons.dev/icons?i=js,html,css)](https://skillicons.dev)
 | :rocket: URL         | https://pokedex-jet-nine.vercel.app/
-</br>
 
 ![](https://imgur.com/vgYabpY.jpg#vitrinedev)
 
