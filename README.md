@@ -5,7 +5,6 @@
 | :sparkles: Nome        | **Pokédex**
 | :label: Tecnologias | javaScript, html, css
 | :rocket: URL         | https://pokedex-jet-nine.vercel.app/
-| :fire: Desafio     |
 
 ![](https://imgur.com/vgYabpY.jpg#vitrinedev)
 
