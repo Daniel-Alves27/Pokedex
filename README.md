@@ -3,7 +3,7 @@
 | :placard: Vitrine.Dev |     |
 | -------------  | --- |
 | :sparkles: Nome        | **Pokédex**
-| :label: Tecnologias | [![My Skills](https://skillicons.dev/icons?i=js,html,css)](https://skillicons.dev)
+| :label: Tecnologias | javaScript, html, css
 | :rocket: URL         | https://pokedex-jet-nine.vercel.app/
 | :fire: Desafio     |
 
